@@ -9,7 +9,7 @@ COPY phpmyadmin.keyring /
 # Copy configuration
 COPY etc /etc/
 
-# Copy main script
+# Copy main script HELLO
 COPY run.sh /run.sh
 RUN chmod u+rwx /run.sh
 
